@@ -1,0 +1,314 @@
+@font-face {
+    font-family: 'Museo300';
+    src: url('Museo300.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+html 
+{
+    scroll-behavior: smooth;
+}
+*, ::before, ::after 
+{
+    box-sizing: border-box;
+}
+img 
+{
+    display: inline-block;
+    max-inline-size: 100%;
+    block-size: auto;
+    vertical-align: middle;
+}
+code, kbd, samp, pre 
+{
+    font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 1em;
+}
+html 
+{
+    line-height: 1.4;
+    -webkit-text-size-adjust: 100%;
+}
+h1, h2, h3, h4, h5, h6 
+{
+    line-height: 1.2;
+}
+main 
+{
+    display: block;
+}
+hr 
+{
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+pre 
+{
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+a 
+{
+    background-color: transparent;
+}
+abbr[title] 
+{
+    color: #78A22F;
+    text-decoration: none;
+    cursor: help;
+}
+b, strong 
+{
+    font-weight: bolder;
+}
+small 
+{
+    font-size: 80%;
+}
+sub, sup 
+{
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sub 
+{
+    bottom: -0.25em;
+}
+sup 
+{
+    top: -0.5em;
+}
+img 
+{
+    border-style: none;
+}
+button, input, optgroup, select, textarea 
+{
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+button, input 
+{
+    overflow: visible;
+}
+button, select 
+{
+    text-transform: none;
+}
+button, [type="button"], [type="reset"], [type="submit"] 
+{
+    -webkit-appearance: button;
+}
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner 
+{
+    border-style: none;
+    padding: 0;
+}
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring 
+{
+    outline: 1px dotted ButtonText;
+}
+fieldset 
+{
+    padding: 0.35em 0.75em 0.625em;
+}
+legend 
+{
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+progress 
+{
+    vertical-align: baseline;
+}
+textarea 
+{
+    overflow: auto;
+}
+[type="checkbox"], [type="radio"] 
+{
+    box-sizing: border-box;
+    padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button 
+{
+    height: auto;
+}
+[type="search"] 
+{
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+[type="search"]::-webkit-search-decoration 
+{
+    -webkit-appearance: none;
+}
+::-webkit-file-upload-button 
+{
+    -webkit-appearance: button;font: inherit;
+}
+details 
+{
+    display: block;
+}
+summary 
+{
+    display: list-item;
+}
+template 
+{
+    display: none;
+}
+[hidden] 
+{
+    display: none;
+}
+body 
+{
+    margin: 0;
+    background: #fdfaf2 url('bg.png') no-repeat bottom center;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    font-family: 'Museo300', sans-serif;
+    color: #333;
+}
+header 
+{
+    text-align: center;
+    background: #78A22F; /* Oficjalna zieleń */
+    padding: 30px 20px;
+    color: white;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+header h1 
+{
+    margin: 0;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+header table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+header th
+{
+    vertical-align: middle;
+    font-weight: normal;
+    padding: 0 15px;
+}
+header th:nth-child(1)
+{
+    width: 40%;
+    white-space: nowrap;
+}
+header th:nth-child(2)
+{
+    width: 60%;
+}
+header img
+{
+    height: 80px;
+    width: auto;
+}
+aside
+{
+    position: fixed;
+    right: 5%;
+    top: 200px;
+    width: 20%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-left: 4px solid #78A22F;
+}
+aside h3
+{
+    margin-top: 0;
+    color: #78A22F;
+    font-size: 1.2em;
+}
+aside ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+aside li
+{
+    margin-bottom: 10px;
+}
+aside a
+{
+    color: #333;
+    text-decoration: none;
+}
+aside a:hover
+{
+    color: #78A22F;
+}
+main
+{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+article 
+{
+    background: white;
+    margin: 0 0 50px 0;
+    width: 70%;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border-top: 10px solid #78A22F;
+}
+h3 
+{
+    color: #78A22F;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+p 
+{
+    margin-bottom: 1.5em;
+    text-align: justify;
+}
+time 
+{
+    font-weight: bold;
+    color: #78A22F;
+}
+abbr a::before
+{
+    color: #78A22F;
+    text-decoration: none;
+    cursor: help;
+}
+a::after
+{
+    text-decoration: none;
+    color: #5C3896;
+}
+@media screen and (max-width: 768px) {
+    article 
+    {
+        margin: 10px;
+        padding: 20px;
+        border-radius: 0;
+    }
+}
