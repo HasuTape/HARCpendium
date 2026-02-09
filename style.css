@@ -175,7 +175,10 @@ template
 body 
 {
     margin: 0;
-    background: #fdfaf2 url('bg.png') no-repeat bottom center;
+    background-color: #fdfaf2;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
     background-size: 100% auto;
     background-attachment: fixed;
     font-family: 'Museo300', sans-serif;
@@ -196,6 +199,7 @@ header h1
     font-size: 2.2em;
     letter-spacing: 1px;
     white-space: nowrap;
+    rotate: -6deg;
 }
 header table
 {
@@ -272,7 +276,7 @@ article
     width: 70%;
     padding: 40px;
     border-radius: 8px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.05);
     border-top: 10px solid #78A22F;
 }
 h3 
