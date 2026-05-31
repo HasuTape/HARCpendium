@@ -308,6 +308,54 @@ a::after
     text-decoration: none;
     color: #5C3896;
 }
+details > summary::-webkit-details-marker 
+{
+    display: none;
+}
+summary::-webkit-details-marker 
+{
+    display: none;
+}
+summary::marker
+{
+    display: none;
+}
+summary
+{
+    list-style: none;
+    cursor: pointer;
+}
+summary:hover
+{
+    color: #78A22F;
+}
+.subcategories
+{
+    margin: 10px 0 10px 20px;
+    padding-left: 20px;
+    list-style: none;
+    border-left: 2px solid #78A22F;
+}
+.subcategories li
+{
+    margin: 8px 0;
+    padding-left: 10px;
+}
+.subcategories li a
+{
+    color: #333;
+    text-decoration: none;
+    font-size: 0.95em;
+}
+.subcategories li a:hover
+{
+    color: #78A22F;
+    text-decoration: underline;
+}
+.kadra-table {
+    padding: 5px;
+    text-align: center;
+}
 @media screen and (max-width: 768px) {
     article 
     {
